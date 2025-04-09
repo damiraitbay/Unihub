@@ -24,10 +24,10 @@ app.use(cors()); // Это разрешает все домены. Для бол
 app.use(express.json());
 
 // 🔐 Роуты
-const authRoutes = require('./routers/authRoutes');
+// const authRoutes = require('./routers/authRoutes');
 const eventRoutes = require('./routers/eventRoutes');
 const clubRoutes = require('./routers/clubRoutes'); // Добавляем роуты для клубов
-app.use('/api/auth', authRoutes);
+// app.use('/api/auth', authRoutes);
 app.use('/api/events', eventRoutes);
 app.use('/api/clubs', clubRoutes); // Добавляем роуты для клубов
 
