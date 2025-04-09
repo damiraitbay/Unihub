@@ -2,10 +2,10 @@
     "name": "university-club-management",
     "version": "1.0.0",
     "description": "Backend for university club management system",
-    "main": "src/index.js",
+    "main": "src/server.js",
     "scripts": {
-        "start": "node src/index.js",
-        "dev": "nodemon src/index.js",
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
         "lint": "eslint .",
         "format": "prettier --write .",
         "test": "jest",
